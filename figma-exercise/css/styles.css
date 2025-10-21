@@ -3,99 +3,99 @@
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=DynaPuff:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">") */
 
 :root {
-    --primary-font: "Roboto", sans-serif;
+  --primary-font: "Roboto", sans-serif;
 
-    --bg-light: rgba(248, 248, 248, 1);
-    --bg-dark: rgba(88, 114, 145, 1);
+  --bg-light: rgba(248, 248, 248, 1);
+  --bg-dark: rgba(88, 114, 145, 1);
 
-    ---btn-primary: rgba(91, 46, 72, 1);
-    --btn-primary-hover: rgb(123, 62, 98);
+  ---btn-primary: rgba(91, 46, 72, 1);
+  --btn-primary-hover: rgb(123, 62, 98);
 
-    --text-light: #fff;
-    --text-dark: #000;
+  --text-light: #fff;
+  --text-dark: #000;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
-.wrapper{
-    max-width: 1100px;
-    margin: 0 auto;
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.header-content{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/get_coding.png");
-    background-size: cover;
-    /* padding: 4rem 2rem; */
-    position: relative;
+.header-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/get_coding.png");
+  background-size: cover;
+  /* padding: 4rem 2rem; */
+  position: relative;
 }
 
-.menu{
-    top: 4rem;
-    left: 50%;
-    transform: translateX(-50%);
-    position: fixed;
-    background-color: var(--bg-light);
-    width: 90%;
-    /* margin: 0 auto; */
-    text-align: center;
+.menu {
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  background-color: var(--bg-light);
+  width: 90%;
+  /* margin: 0 auto; */
+  text-align: center;
 }
 
-.link{
-    display: inline-block;
-    padding: 1.5rem 3rem;
-    color: var(--text-dark);
-    font-family: var(--primary-font);
-    text-decoration: none;
+.link {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  color: var(--text-dark);
+  font-family: var(--primary-font);
+  text-decoration: none;
 }
 
-.link:hover{
-    background-color: grey;;
+.link:hover {
+  background-color: grey;
 }
 
-.main-content{
-    width: 100%;
-    padding: 15rem 2rem;
-    background-color: var(--bg-dark);
-    text-align: center;
+.main-content {
+  width: 100%;
+  padding: 15rem 2rem;
+  background-color: var(--bg-dark);
+  text-align: center;
 }
 
-.heading{
-    margin-bottom: 2rem;
-    font-family: var(--primary-font);
-    font-size: 2.25rem;
-    color: var(--text-light);
-    font-weight: 400;
+.heading {
+  margin-bottom: 2rem;
+  font-family: var(--primary-font);
+  font-size: 2.25rem;
+  color: var(--text-light);
+  font-weight: 400;
 }
 
-.button{
-    padding: 1rem 2rem;
-    background-color: var(---btn-primary);
-    font-family: var(--primary-font);
-    color: var(--text-light)
-    border: none;
-    border-radius: 10px;
-    font-size: 1.25rem;
+.button {
+  padding: 1rem 2rem;
+  background-color: var(---btn-primary);
+  font-family: var(--primary-font);
+  color: var(--text-light);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25rem;
 }
 
-.button:hover{
-    /* background-color: rgb(130, 63, 102); */
-    background-color: var(--btn-primary-hover);
+.button:hover {
+  /* background-color: rgb(130, 63, 102); */
+  background-color: var(--btn-primary-hover);
 }
 
-.footer-content{
-    background-color: var(--bg-light);
+.footer-content {
+  background-color: var(--bg-light);
 }
 
-.navigation{
-    text-align: end;
+.navigation {
+  text-align: end;
 }
