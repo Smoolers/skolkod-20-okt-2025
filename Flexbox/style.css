@@ -1,7 +1,7 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* .parent{
@@ -21,71 +21,71 @@
     background-color: blue;
     width: 50px;
     height: 50px;
+} */
+
+.wrapper {
+  max-width: 110px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 1rem;
 }
 
-.child:first-child{
-    /* align-self: center;
-    flex: 2; */
-
-.wrapper{
-    max-width: 110px;
-    margin: 0 auto;
-    border: 1px solid black;
-    padding: 1rem;
+.header {
+  border: 1px solid black;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header{
-    border: 1px solid black;
-    width: 100%;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.nav{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+.link {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-family: Verdana;
 }
 
-.link{
-    padding: 1rem 2rem;
-    text-decoration: none;
-    font-family: Verdana;
+.product-section {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.product-section{
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+.product {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 49%;
+  aspect-ratio: 5 / 3;
+
+  display: flex;
+  gap: 1rem;
 }
 
-.product{
-    border: 1px solid black;
-    padding: 1rem;
-    width: 49%;
-    aspect-ratio: 5/3;
-
-    display: flex;
+figure {
+  flex: 1;
+  background-color: black;
 }
 
-figure{
-    flex: 1;
-    background-color: black;
+.product-details {
+  flex: 1;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.product-details{
-flex: 1;
-display: flex;
-gap: .5rem;
-flex-direction: column;
-}
-
-.button{
-    padding: 1rem 2rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-    align-self: flex-end;
+.button {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: flex-end;
 }
